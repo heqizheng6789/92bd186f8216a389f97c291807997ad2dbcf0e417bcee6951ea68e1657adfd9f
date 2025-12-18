@@ -1,19 +1,25 @@
 name: heqizheng6789
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 1/6 * * *'
+    - cron: '45 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: heqizheng6789
         env:
-          dq8068: ${{ secrets.dq8068 }}
+          jl848: ${{ secrets.jl848 }}
         run: |
-          echo $dq8068 | jq -r .qx2557 | /bin/bash
-          echo $pszcw49 | jq -r .lx98 | /bin/bash
-          echo $zq9 | jq -r .mv6 | /bin/bash
-          echo $pf70771 | jq -r .pwah4447 | /bin/bash
+          echo $jl848 | jq -r .yd16117 | /bin/bash
+          echo $asi4 | jq -r .uq88 | /bin/bash
+          echo $skgl749 | jq -r .vmxix8644 | /bin/bash
+          echo $qjnug97199 | jq -r .om171 | /bin/bash
+          echo $l41 | jq -r .dm0 | /bin/bash
+          echo $krvzh68999 | jq -r .rua85 | /bin/bash
+          echo $kteqv0904 | jq -r .ia13 | /bin/bash
+          echo $jlkw157 | jq -r .kz5970 | /bin/bash
 
